@@ -1,0 +1,28 @@
+# PocketBase runtime data (database, uploads, logs) and binary
+pb_data/
+pb_migrations/
+pocketbase
+pocketbase.exe
+*.db
+*.db-shm
+*.db-wal
+
+# Secrets and local config
+.env
+.env.*
+*.key
+*.pem
+secrets*
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
